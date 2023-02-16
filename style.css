@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+font-family: 'Orbitron', sans-serif;
+background-color: rgb(226, 220, 220);
+}
+
+html {
+    font-size: 16px;
+    align-content: center;
+}
+
+.letter {
+background-color: white;
+width: 1000px;
+border: 1px solid black;
+padding: 80px;
+margin-top: 5%;
+margin-left: 30%;
+margin-right: 30%;
+margin-bottom: 5%;
+word-wrap: break-word;
+}
+
+/* como se puede poner texto de bajo hacia arriba? Cómo se puede insertar en el margen sin que afecte al contenido paralelo? */
+.modeup{
+    writing-mode: vertical-rl; 
+    background-color: white;
+    font-size: 9px;
+}
+
+.adress1 {
+    text-align: right;
+    background-color: white;
+}
+
+.wordspacing {
+    word-spacing: 20px;
+    background-color: white;
+}
+
+.adress2 {
+        background-color: white;
+}
+
+.bold {
+    font-weight: bold;
+    background-color: white;
+}
+
+h2 {
+    color: red;
+    background-color: white;   
+}
+
+#quote {
+    quotes: """ """ ;
+    background-color: white;
+}
+
+h3, ul, p, ol, li {
+    background-color: white;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.tabulacion1 {
+    line-height: 150%;
+    margin-left: 60px;
+}
+
+.tabulacion2 {
+    line-height: 150%;
+    margin-left: 60px; 
+}
+
+.sub {
+    vertical-align: sub;
+    background-color: white;
+    font-size: 12px;
+}
+
+.sup {
+    vertical-align: super;
+    background-color: white;
+    font-size: 12px;
+}
+
+a.link1:hover, a.link1:active {
+    color: red;
+}
+
+.link1 {
+    background-color: white;
+}
+
+.alldl {
+    background-color: white;
+}
+
+.curs {
+    font-style: italic;
+    background-color: white;
+}
+.wtall {
+    background-color: white;
+}
+
+.tabulacion3 {
+    margin-left: 60px; 
+    background-color: white;
+}
